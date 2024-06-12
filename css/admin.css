@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to right, #CDE8E5, #EEF7FF, #7AB2B2);
+    
+}
+
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form button {
+    margin: 5px 0;
+    padding: 10px;
+    width: 300px;
+}
+
+/* Styling untuk tombol secara umum */
+button {
+    background-color: #4CAF50; /* Warna latar belakang */
+    border: none; /* Menghapus border default */
+    color: white; /* Warna teks */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    text-align: center; /* Teks rata tengah */
+    text-decoration: none; /* Menghapus garis bawah pada teks */
+    display: inline-block; /* Menampilkan tombol inline */
+    font-size: 16px; /* Ukuran font */
+    margin: 4px 2px; /* Margin di sekitar tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat hover */
+    border-radius: 8px; /* Membuat sudut tombol melengkung */
+}
+
+/* Styling tombol saat dihover */
+button:hover {
+    background-color: #45a049; /* Warna latar belakang saat dihover */
+}
